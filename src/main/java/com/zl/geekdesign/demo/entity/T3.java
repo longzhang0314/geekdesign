@@ -3,7 +3,7 @@ package com.zl.geekdesign.demo.entity;
 /**
  * Create by zhanglong on 2020/4/8
  */
-public class T2 {
+public class T3 {
     private int id;
     private int a;
     private int b;
@@ -32,10 +32,10 @@ public class T2 {
         this.b = b;
     }
 
-    public T2() {
+    public T3() {
     }
 
-    public T2(int id, int a, int b) {
+    public T3(int id, int a, int b) {
         this.id = id;
         this.a = a;
         this.b = b;
