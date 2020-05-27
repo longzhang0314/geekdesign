@@ -59,7 +59,7 @@ public class BeanFactory {
                     if (!arg.isRef()) {
                         argClass[i] = arg.getType();
                         argObjects[i] = arg.getArgs();
-                    } else {
+                    } else { // 如果参数是引用，通过BD对象递归创建对象
                         BeanDefinition refBeanDefinition = beanDefinitions.get(arg.getArgs());
                         if (refBeanDefinition == null) {
                             throw new NoSuchBeanDefinitionException("Bean is not defined: " + arg.getArgs());
