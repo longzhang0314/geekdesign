@@ -20,7 +20,7 @@ public class BeanFactory {
         }
 
         for (BeanDefinition beanDefinition : beanDefinitions) {
-            if (!beanDefinition.isLaztInit() && beanDefinition.isSingleton()) {
+            if (!beanDefinition.isLazyInit() && beanDefinition.isSingleton()) {
                 createBean(beanDefinition);
             }
         }
@@ -35,6 +35,11 @@ public class BeanFactory {
     }
 
 
+    /**
+     * 单例非懒加载创建bean  或   根据bd对象获取bean
+     * @param beanDefinition
+     * @return
+     */
     private Object createBean(BeanDefinition beanDefinition) {
         if (beanDefinition.isSingleton() && singletonObjects.containsKey(beanDefinition.getId())) {
             return singletonObjects.get(beanDefinition.getId());

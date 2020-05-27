@@ -11,7 +11,7 @@ public class BeanDefinition {
     private String id;
     private List<ConstructorArg> constructorArgs = new ArrayList<>();
     private Scope scope = Scope.SINGLETON;
-    private boolean laztInit = false;
+    private boolean lazyInit = false;
     private String className;
 
     public boolean isSingleton() {
@@ -30,8 +30,8 @@ public class BeanDefinition {
         return scope;
     }
 
-    public boolean isLaztInit() {
-        return laztInit;
+    public boolean isLazyInit() {
+        return lazyInit;
     }
 
     public String getClassName() {
