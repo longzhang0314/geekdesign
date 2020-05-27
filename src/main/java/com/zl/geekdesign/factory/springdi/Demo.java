@@ -1,4 +1,4 @@
-package com.zl.geekdesign.factory.sprintdi;
+package com.zl.geekdesign.factory.springdi;
 
 /**
  * Create by zhanglong on 2020/5/27

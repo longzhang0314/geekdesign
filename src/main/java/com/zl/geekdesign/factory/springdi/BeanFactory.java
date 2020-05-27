@@ -1,4 +1,4 @@
-package com.zl.geekdesign.factory.sprintdi;
+package com.zl.geekdesign.factory.springdi;
 
 import org.springframework.beans.factory.BeanCreationException;
 import org.springframework.beans.factory.NoSuchBeanDefinitionException;

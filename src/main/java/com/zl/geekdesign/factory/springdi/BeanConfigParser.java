@@ -1,4 +1,4 @@
-package com.zl.geekdesign.factory.sprintdi;
+package com.zl.geekdesign.factory.springdi;
 
 import java.io.InputStream;
 import java.util.List;
