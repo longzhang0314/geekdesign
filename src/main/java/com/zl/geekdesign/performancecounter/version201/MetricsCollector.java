@@ -10,6 +10,11 @@ import org.springframework.util.StringUtils;
 public class MetricsCollector {
     private MetricsStorage metricsStorage;//基于接口
 
+    public MetricsCollector() {
+        this.metricsStorage = new RedisMetricsStorage();
+    }
+
+
     //依赖注入
     public MetricsCollector(MetricsStorage metricsStorage) {
         this.metricsStorage = metricsStorage;
