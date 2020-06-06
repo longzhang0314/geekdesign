@@ -15,6 +15,11 @@ public class MetricsCollector {
         this.metricsStorage = metricsStorage;
     }
 
+    public MetricsCollector() {
+        this.metricsStorage = new RedisMetricsStorage();
+    }
+
+
     public void recordRequest(RequestInfo requestInfo) {
         if (requestInfo == null || StringUtils.isEmpty(requestInfo)) return;
         metricsStorage.saveRequestInfo(requestInfo);
