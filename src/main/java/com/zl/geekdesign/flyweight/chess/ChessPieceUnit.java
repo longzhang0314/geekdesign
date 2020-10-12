@@ -1,4 +1,4 @@
-package com.zl.geekdesign.flyweight;
+package com.zl.geekdesign.flyweight.chess;
 
 import lombok.Data;
 

@@ -1,4 +1,4 @@
-package com.zl.geekdesign.flyweight;
+package com.zl.geekdesign.flyweight.chess;
 
 import java.util.HashMap;
 import java.util.Map;
