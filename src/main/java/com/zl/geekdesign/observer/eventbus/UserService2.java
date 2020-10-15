@@ -38,6 +38,7 @@ public class UserService2 {
         // 注册功能，注册成功返回userId
         Long userId = 1L;
 
+        // 将注册成功的用户id放入eventBus
         eventBus.post(userId);
 
         return userId;
