@@ -39,6 +39,8 @@ public class UserService2 {
         Long userId = 1L;
 
         // 将注册成功的用户id放入eventBus
+        // git测试
+        // git测试2
         eventBus.post(userId);
 
         return userId;
