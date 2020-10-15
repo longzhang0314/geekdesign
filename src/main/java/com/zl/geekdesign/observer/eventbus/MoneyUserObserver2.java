@@ -8,5 +8,6 @@ public class MoneyUserObserver2 {
     public void handleRegSuccess(Long userId) {
         // 发放新人奖励...
 
+        // ...
     }
 }
