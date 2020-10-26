@@ -8,5 +8,6 @@ import com.zl.geekdesign.auth.domain.ApiRequest;
  */
 public interface ApiAuthenticator {
     void auth(String url);
+
     void auth(ApiRequest apiRequest);
 }

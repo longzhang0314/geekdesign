@@ -5,7 +5,8 @@ package com.zl.geekdesign.tdd.day2;
  */
 public class RedisDistributedLock {
 
-    private RedisDistributedLock(){}
+    private RedisDistributedLock() {
+    }
 
     public boolean lockTransction(String id) {
         //...具体加锁逻辑
@@ -17,7 +18,7 @@ public class RedisDistributedLock {
         //...具体解锁逻辑
     }
 
-    private static class SingleHolder{
+    private static class SingleHolder {
         private static final RedisDistributedLock REDIS_DISTRIBUTED_LOCK = new RedisDistributedLock();
     }
 

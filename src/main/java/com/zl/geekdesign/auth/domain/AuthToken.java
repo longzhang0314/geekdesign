@@ -23,10 +23,10 @@ public class AuthToken {
     }
 
 
-    public static AuthToken create(String appId,String password,long createTime,String baseUrl) {
+    public static AuthToken create(String appId, String password, long createTime, String baseUrl) {
         String str = new StringBuilder(baseUrl).append(appId).append(password).append(createTime).toString();
         String token = "str加密";
-        return new AuthToken(token,createTime);
+        return new AuthToken(token, createTime);
     }
 
 

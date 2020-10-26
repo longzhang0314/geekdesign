@@ -13,6 +13,7 @@ public class Editor {
 
     /**
      * 追加单个文本
+     *
      * @param font
      * @param size
      * @param colorRGB

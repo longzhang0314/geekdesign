@@ -31,6 +31,7 @@ public class Transaction {
     public void setWalletRpcService(WalletRpcService walletRpcService) {
         this.walletRpcService = walletRpcService;
     }
+
     public void setLock(TransactionLock lock) {
         this.lock = lock;
     }

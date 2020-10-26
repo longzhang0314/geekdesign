@@ -6,6 +6,7 @@ package com.zl.geekdesign.singleton;
 public class Single1 {
 
     private static final Single1 single1 = new Single1();
+
     private Single1() {
     }
 

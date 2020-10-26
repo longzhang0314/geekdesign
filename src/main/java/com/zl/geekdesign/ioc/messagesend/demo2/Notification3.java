@@ -21,6 +21,6 @@ public class Notification3 {
         //但此处创建对象的工作依然是硬编码，所以之后产生了依赖注入框架
         IMessageSender iMessageSender = new SmsSender();
         Notification3 notification3 = new Notification3(iMessageSender);
-        notification3.sendMessage("cell","mess");
+        notification3.sendMessage("cell", "mess");
     }
 }

@@ -20,7 +20,7 @@ public class ClassPathXmlApplicationContext implements ApplicationContext {
 
     private void loadBeanDefinitions(String configLocation) {
         InputStream in = null;
-        try{
+        try {
             in = this.getClass().getResourceAsStream("/" + configLocation);
             if (in == null) {
                 throw new RuntimeException("Can not find config file: " + configLocation);

@@ -35,7 +35,7 @@ public class Metrics {
     public void startRepeatedReport(long periods, TimeUnit unit) {
         executor.scheduleAtFixedRate(() -> {
             Gson gson = new Gson();
-            Map<String, Map<String,Double>> stats = new HashMap<>();
+            Map<String, Map<String, Double>> stats = new HashMap<>();
             //统计每个接口的最大值和平均时间
             for (Map.Entry<String, List<Double>> entry : responseTimes.entrySet()) {
                 String apiName = entry.getKey();

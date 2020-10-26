@@ -18,7 +18,7 @@ public class Demo4 {
         // 拷贝已有对象的数据，更新少量差值
         // Deep copy
         HashMap<String, SearchWord> newKeywords = new HashMap<>();
-        for (HashMap.Entry<String, SearchWord> e :currentKeyWords.entrySet()) {
+        for (HashMap.Entry<String, SearchWord> e : currentKeyWords.entrySet()) {
             SearchWord searchWord = e.getValue();
             SearchWord newSearchWord = new SearchWord(searchWord.getKeyWord(), searchWord.getLastUpdateTime(),
                     searchWord.getCount());

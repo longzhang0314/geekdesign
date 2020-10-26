@@ -14,7 +14,7 @@ public class Alert {
     }
 
     public void check(ApiStatInfo apiStatInfo) {
-        for(AlertHandler alertHandler:alertHandlers) {
+        for (AlertHandler alertHandler : alertHandlers) {
             alertHandler.check(apiStatInfo);
         }
     }

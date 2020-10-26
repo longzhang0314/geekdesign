@@ -12,16 +12,16 @@ public class Notification2 {
         this.messageSender = messageSender;
     }
 
-    public void sendMessage(String cellPhone,String message) {
+    public void sendMessage(String cellPhone, String message) {
         //...校验逻辑
-        this.messageSender.send(cellPhone,message);
+        this.messageSender.send(cellPhone, message);
     }
 
     public static void main(String[] args) {
         //提前创建好messageSender对象，提高了代码的扩展性
         MessageSender messageSender = new MessageSender();
         Notification2 notification2 = new Notification2(messageSender);
-        notification2.sendMessage("cell","mess");
+        notification2.sendMessage("cell", "mess");
     }
 
 }

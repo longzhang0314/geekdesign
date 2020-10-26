@@ -6,7 +6,6 @@ import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Mapper;
 
 
-
 /**
  * Create by zhanglong on 2020/4/8
  */

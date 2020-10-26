@@ -22,9 +22,9 @@ public class ApiRequest {
 
     public static ApiRequest buildFromUrl(String url) {
         //TODO 从url中解析出每个元素
-        Map<String,String> param = null;
-        ApiRequest apiRequest = new ApiRequest(param.get("appId"),param.get("baseUrl"),
-                Long.parseLong(param.get("createTime")),param.get("token"));
+        Map<String, String> param = null;
+        ApiRequest apiRequest = new ApiRequest(param.get("appId"), param.get("baseUrl"),
+                Long.parseLong(param.get("createTime")), param.get("token"));
         return apiRequest;
     }
 

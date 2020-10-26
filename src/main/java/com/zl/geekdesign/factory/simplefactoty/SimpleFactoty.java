@@ -15,8 +15,8 @@ public class SimpleFactoty {
     private static final Map<String, Animal> map = new HashMap<>();
 
     static {
-         map.put("dog", new Dog());
-         map.put("cat", new Cat());
+        map.put("dog", new Dog());
+        map.put("cat", new Cat());
     }
 
 

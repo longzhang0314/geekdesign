@@ -13,6 +13,7 @@ public class CharactorStyleFactory {
 
     /**
      * 从工厂中找出已有的文本元
+     *
      * @param font
      * @param size
      * @param colorRGB

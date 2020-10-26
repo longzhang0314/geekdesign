@@ -12,7 +12,7 @@ public abstract class Handler2 {
     }
 
     public void handle() {
-        boolean handler  = doHandle();
+        boolean handler = doHandle();
         if (!handler && successor != null) {
             successor.handle();
         }

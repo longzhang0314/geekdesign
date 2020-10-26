@@ -9,7 +9,8 @@ public class Single2 {
         private static final Single2 single2 = new Single2();
     }
 
-    private Single2(){}
+    private Single2() {
+    }
 
     public static Single2 getInstance() {
         return Inner.single2;

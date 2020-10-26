@@ -20,7 +20,7 @@ public class TestController {
     @GetMapping("/insert")
     public String insert() {
         for (int i = 101; i <= 100000; i++) {
-            T3 t2= new T3(i, i, i);
+            T3 t2 = new T3(i, i, i);
             t2Mapper.insert(t2);
 
         }

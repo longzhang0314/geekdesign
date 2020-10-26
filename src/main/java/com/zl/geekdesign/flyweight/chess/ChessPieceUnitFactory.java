@@ -5,7 +5,7 @@ import java.util.Map;
 
 /**
  * 棋子元工厂
- *
+ * <p>
  * 享元核心：工厂类中初初始化一个map用来生产元数据，防止元数据重复生产
  */
 public class ChessPieceUnitFactory {

@@ -8,7 +8,7 @@ import java.util.Map;
 /**
  * Create by zhanglong on 2020/3/27
  */
-public class ConsoleViewer implements StatViewer{
+public class ConsoleViewer implements StatViewer {
     @Override
     public void optput(Map<String, RequestStat> requestStat, long startTimeInMillis, long endTimeInMillis) {
         System.out.println("Time Span: [" + startTimeInMillis + ", " + endTimeInMillis + "]");

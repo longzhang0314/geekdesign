@@ -1,7 +1,6 @@
 package com.zl.geekdesign.chain.type1;
 
 /**
- *
  * @author longzhang0314
  * @date 2020/10/15
  */

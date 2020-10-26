@@ -11,9 +11,8 @@ public class Charctor {
 
     public Charctor(CharactorStyle charactorStyle, char c) {
         this.charactorStyle = charactorStyle;
-        this.c =  c;
+        this.c = c;
     }
-
 
 
 }
